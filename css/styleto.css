@@ -140,11 +140,12 @@ body {
 	border-radius: 40px;
 	padding: 15px 10px;
 	text-align: center;
-	color: #683c16;
+	color: #1b1c2d;
 	font-family: 'Clarendon', sans-serif;
-	font-weight: 600;
+	font-weight: 800;
 	letter-spacing: -9%;
-	background-color: #ffc617;
+	background-color: #ffc700;
+	box-shadow: 2px 0px 15px 4px #ffc700;
 	margin-bottom: clamp(10px, 1.6vw, 20px);
 }
 .main__text-mini {
