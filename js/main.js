@@ -19,6 +19,8 @@ const randomKey = keys[Math.floor(Math.random() * keys.length)]
 const { title, img } = obj[randomKey]
 
 // Подставляем в HTML
-document.querySelector('.main__title-mobile').textContent = title
-document.querySelector('.main__title').textContent = title
-document.querySelector('.main__img').src = './img/' + img
+document.querySelector('.main__title-mobile4').textContent = title
+document.querySelector('.main__title2').textContent = title
+const url = document.querySelector('.main__img-mini2').src
+const pathOnly = url.substring(0, url.lastIndexOf('/') + 1)
+document.querySelector('.main__img1').src = pathOnly + img

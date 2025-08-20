@@ -16,6 +16,8 @@ document
 
 		setTimeout(() => {
 			clearInterval(interval) // остановить анимацию
-			window.location.href = 'too.html' // переход на страницу
+			document.querySelector('.popup').style.display = 'none'
+			document.querySelector('.main1').style.display = 'block'
+			document.querySelector('.main').style.display = 'none'
 		}, 2000)
 	})
